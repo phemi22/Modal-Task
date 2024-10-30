@@ -1,0 +1,14 @@
+.modalContainer{
+    width: 50%;
+    height: auto;
+    margin: 4rem auto;
+    padding-top: var(--smallPadding);
+    padding-bottom: var(--bigPadding);
+    padding-left: var(--smallPadding);
+    padding-right: var(--smallPadding);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: var(--bigRowGap);
+}

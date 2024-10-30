@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: -0.75px;
+  font-family: "Inter", serif;
+}
+
+:root{
+  /* COLOR VARIABLES */
+  --backgroundColor: #ffffff;
+  --borderColor: #CBD5E1;
+  --buttonColor: #0f172a;
+  --secondButtonColor: #ffffff;
+  --headingTextColor: #0f172a;
+  --paragraphTextColor: #475569;
+  --buttonTextColor: #ffffff;
+  --secondButtonTextColor: #0f172a;
+
+  /* TEXT VARIABLES */
+  --headingOneText: 1.875rem;
+  --headingThreeText: 1.125rem;
+  --paragraphTextOne: 1.25rem;
+  --paragraphTextTwo: 0.875rem;
+  --buttonText: 0.875rem;
+
+  /* SPACE VARIABLES */
+  --bigPadding: 4rem;
+  --smallPadding: 2rem;
+  --bigRowGap: 4rem;
+  --smallRowGap: 2rem;
+  --borderRadius: 0.375rem;
+  --smallerPadding: 1.5rem;
+  --smallerRowGap: 1rem;
+  --smallestRowGap: 0.5rem;
+  --buttonColumnGap: 0.5rem;
+  --buttonPaddingTop: 0.7rem;
+  --buttonPaddingBottom: 0.7rem;
+  --buttonPaddingLeft: 1rem;
+  --buttonPaddingRight: 1rem;
+}

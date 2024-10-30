@@ -1,0 +1,93 @@
+.bottomModalContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: var(--smallerRowGap);
+    padding: var(--smallerPadding);
+    border: 1px solid var(--borderColor);
+    border-radius: var(--borderRadius);
+}
+
+.confirmationQuestionContainer{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: var(--smallerRowGap);
+}
+
+.questionText{
+    width: fit-content;
+    height: auto;
+}
+
+.questionText h3{
+    font-size: var(--headingThreeText);
+    color: var(--headingTextColor);
+    font-weight: 600;
+}
+
+.confirmationBodyText{
+    width: 100%;
+    height: auto;
+}
+
+.confirmationBodyText p{
+    font-size: var(--paragraphTextTwo);
+    color: var(--paragraphTextColor);
+    font-weight: 400;
+}
+
+.bottomButtonContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: var(--buttonColumnGap);
+}
+
+.cancelButton{
+    width: fit-content;
+    height: auto;
+}
+
+.cancelButton button{
+    background-color: var(--secondButtonColor);
+    color: var(--secondButtonTextColor);
+    font-size: var(--buttonText);
+    padding-top: var(--buttonPaddingTop);
+    padding-bottom: var(--buttonPaddingBottom);
+    padding-left: var(--buttonPaddingLeft);
+    padding-right: var(--buttonPaddingRight);
+    border: none;
+    outline: none;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    border: 1px solid var(--borderColor);
+}
+
+.continueButton{
+    width: fit-content;
+    height: auto;
+}
+
+.continueButton button{
+    background-color: var(--buttonColor);
+    color: var(--buttonTextColor);
+    font-size: var(--buttonText);
+    padding-top: var(--buttonPaddingTop);
+    padding-bottom: var(--buttonPaddingBottom);
+    padding-left: var(--buttonPaddingLeft);
+    padding-right: var(--buttonPaddingRight);
+    border: none;
+    outline: none;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+}

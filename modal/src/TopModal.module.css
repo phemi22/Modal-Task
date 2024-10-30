@@ -1,0 +1,61 @@
+.topModalContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: var(--smallPadding);
+    border-bottom: 1px solid var(--borderColor);
+}
+
+.alertDialogContainer{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: var(--smallerRowGap);
+}
+
+.alertDialog{
+    width: fit-content;
+    height: auto;
+}
+
+.alertDialog h1{
+    font-size: var(--headingOneText);
+    color: var(--headingTextColor);
+    font-weight: 600;
+}
+
+.alertDialogBodyText{
+    width: 100%;
+    height: auto;
+}
+
+.alertDialogBodyText p{
+    font-size: var(--paragraphTextOne);
+    color: var(--paragraphTextColor);
+}
+
+.topButtonContainer{
+    width: fit-content;
+    height: auto;
+}
+
+.topButtonContainer button{
+    background-color: var(--buttonColor);
+    color: var(--buttonTextColor);
+    font-size: var(--buttonText);
+    text-decoration: underline;
+    padding-top: var(--buttonPaddingTop);
+    padding-bottom: var(--buttonPaddingBottom);
+    padding-left: var(--buttonPaddingLeft);
+    padding-right: var(--buttonPaddingRight);
+    border: none;
+    outline: none;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+}
